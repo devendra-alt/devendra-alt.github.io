@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #caf0f8;
+}
+.hero h1 {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 54px;
+  color: #03045e;
+  text-align: center;
+}
