@@ -4,13 +4,30 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Oswald", sans-serif;
-  background-color: #caf0f8;
+  font-family: "Inter", sans-serif;
 }
-.hero h1 {
-  text-transform: uppercase;
-  letter-spacing: -1px;
+header {
+  position: relative;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+  background-color: #e9ecef;
+  height: 100vh;
+}
+.about h1 {
+  letter-spacing: -3px;
   font-size: 54px;
-  color: #03045e;
   text-align: center;
+}
+.hero-image {
+  height: auto;
+}
+
+#btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
 }
