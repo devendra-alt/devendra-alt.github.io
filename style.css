@@ -6,28 +6,14 @@
 body {
   font-family: "Inter", sans-serif;
 }
-header {
-  position: relative;
+h1 {
+  margin-bottom: 34px;
 }
-.hero {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 24px;
-  background-color: #e9ecef;
-  height: 100vh;
+.links {
+  width: 700px;
+  margin: 100px auto;
+  font-size: 24px;
 }
-.about h1 {
-  letter-spacing: -3px;
-  font-size: 54px;
-  text-align: center;
-}
-.hero-image {
-  height: auto;
-}
-
-#btn {
-  position: absolute;
-  top: 50px;
-  right: 50px;
+.links ul {
+  list-style: none;
 }
